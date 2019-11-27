@@ -14,7 +14,7 @@ export default class ExpoMixpanelAnalytics {
 
     this.token = token;
     this.userId = null;
-    this.clientId = Constants.deviceId;
+    this.clientId = Constants.installationId;
     this.identify(this.clientId);
 
     Constants.getWebViewUserAgentAsync()
