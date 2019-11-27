@@ -1,6 +1,6 @@
 {
   "name": "expo-mixpanel-analytics",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Mixpanel integration for use with React Native apps built on Expo.",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,12 @@
     "url": "https://github.com/codekadiya/expo-mixpanel-analytics/issues"
   },
   "dependencies": {
-    "buffer": "^5.0.8"
+    "buffer": "^5.0.8",
+    "expo-constants": "^7.0.1"
   },
   "devDependencies": {
-    "expo": "^28.0.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz"
+    "expo": "^34.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz"
   }
 }
